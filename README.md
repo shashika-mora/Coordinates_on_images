@@ -14,7 +14,7 @@ Ensure you have Python installed. Then, install the required dependencies:
 
 ```bash
 # Clone the repository (if applicable)
-# git clone [repository-url]
+git clone https://github.com/shashika-mora/Coordinates_on_images
 
 # Install OpenCV
 pip install opencv-python
