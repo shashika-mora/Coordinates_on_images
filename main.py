@@ -1,11 +1,12 @@
 from typing import *
 import cv2
-import numpy as np
-
-
-
 
 def click_event(event: int, x: int, y: int, flags: int, param: Any) -> None:
+    '''
+    This function is called when a mouse event is detected.
+    Left-Mouse Button: Print the coordinates of the mouse cursor
+    Right-Mouse Button: Print the color of the pixel at the mouse cursor
+    '''
     font = cv2.FONT_HERSHEY_SIMPLEX
     if event == cv2.EVENT_LBUTTONDOWN:
         print(x, y)
@@ -20,7 +21,7 @@ def click_event(event: int, x: int, y: int, flags: int, param: Any) -> None:
 
     
 if __name__ == '__main__':
-    # Read the image and display it
+    # Read the image and display it, change the path to your image if needed
     image = cv2.imread('image.png')
     cv2.imshow('Image', image)
 
