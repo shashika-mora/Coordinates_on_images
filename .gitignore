@@ -1,0 +1,40 @@
+GEMINI.md
+.agent/
+.agent/knowledge
+.agent/rules
+.agent/templates
+.agent/workflows
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+venv/
+.venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+
+# Antigravity system
+.gemini/
